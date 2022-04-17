@@ -1,0 +1,93 @@
+html {
+  font-size: 62.5%;
+  /* 1 REM = 10 PX */
+  box-sizing: border-box;
+}
+html body {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+h2 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.2rem;
+}
+img {
+  width: 100%;
+}
+.noMargin {
+  margin: 0;
+}
+.hidden {
+  display: none;
+}
+section {
+  min-height: 75rem;
+  display: grid;
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+section .faq-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto auto;
+  width: 92rem;
+  height: 50rem;
+  background-color: white;
+  border-radius: 2.5rem;
+  box-shadow: 0 3rem 12rem -6rem;
+}
+.grid1 {
+  overflow: hidden;
+  max-height: 70rem;
+}
+.grid1 .bg-pattern-desktop {
+  width: 79vw;
+  left: -68.6rem;
+  bottom: 74rem;
+  position: relative;
+}
+.grid1 .woman-online {
+  width: 34vw;
+  left: -7.6rem;
+  bottom: -5.5rem;
+  position: relative;
+}
+.grid1 .box-desktop {
+  width: 20rem;
+  position: absolute;
+  z-index: 1;
+  top: 45vh;
+  left: 8.45vw;
+}
+.grid2 {
+  padding: 0 10rem 0 2rem;
+  max-height: 70rem;
+}
+.grid2 h2 {
+  font-size: 3.4rem;
+  margin: 6rem 0 2rem 0;
+}
+.grid2 .question-answer {
+  border-bottom: 0.1rem solid hsl(240, 5%, 91%);
+}
+.grid2 .question-answer .question {
+  display: flex;
+  font-size: 1.4rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.grid2 .question-answer .question p {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+}
+.grid2 .question-answer .question img {
+  height: 0.8rem;
+}
+.grid2 .question-answer .answer {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.05rem;
+}
+.question-answer img {
+  width: 1rem;
+}
