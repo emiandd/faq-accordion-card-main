@@ -1,5 +1,5 @@
 # faq-accordion-card-main
-Frontend Mentor Challenge | HTML - CSS - JS
+Frontend Mentor Challenge | HTML - LESS - CSS - JS
 
 Desktop Version for 1440 and 1366
 
