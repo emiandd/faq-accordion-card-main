@@ -1,3 +1,5 @@
+@import "variables";
+
 .grid1{
 	overflow: hidden;
 	max-height: 70rem;
@@ -7,6 +9,11 @@
 		left: -72.1rem; 
 		bottom: 78rem;
 		position: relative;
+
+		@media @normalDesktop{
+			left: -69rem;
+			bottom: 75rem;
+		}
 	}
 
 	.woman-online{
@@ -22,8 +29,12 @@
 		z-index: 1;
 		top: 43vh;
 		left: 11.3vw;
-	}
 
+		@media @normalDesktop{
+			left: 9.2vw;
+			top: 40vh;
+		}
+	}
 }
 
 
