@@ -21,8 +21,11 @@ img {
 .hidden {
   display: none;
 }
+.arrowUp {
+  transform: rotate(180deg);
+}
 section {
-  min-height: 75rem;
+  height: 100vh;
   display: grid;
   background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 }
@@ -42,8 +45,8 @@ section .faq-container {
 }
 .grid1 .bg-pattern-desktop {
   width: 79vw;
-  left: -68.6rem;
-  bottom: 74rem;
+  left: -72.1rem;
+  bottom: 78rem;
   position: relative;
 }
 .grid1 .woman-online {
@@ -56,8 +59,8 @@ section .faq-container {
   width: 20rem;
   position: absolute;
   z-index: 1;
-  top: 45vh;
-  left: 8.45vw;
+  top: 43vh;
+  left: 11.3vw;
 }
 .grid2 {
   padding: 0 10rem 0 2rem;
@@ -80,13 +83,19 @@ section .faq-container {
   font-size: 1.4rem;
   margin-top: 1.5rem;
 }
+.grid2 .question-answer .question p:hover {
+  color: hsl(14, 88%, 65%);
+  cursor: pointer;
+}
 .grid2 .question-answer .question img {
   height: 0.8rem;
+  cursor: pointer;
 }
 .grid2 .question-answer .answer {
   font-size: 1.2rem;
   line-height: 1.7rem;
   letter-spacing: 0.05rem;
+  color: hsl(237, 12%, 33%);
 }
 .question-answer img {
   width: 1rem;
